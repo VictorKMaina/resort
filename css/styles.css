@@ -100,4 +100,67 @@ p {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  padding-top: 200px;
+  position: fixed;
+}
+
+.picker {
+  display: inline;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Roboto;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 0.7em;
+}
+#picker_class {
+  background: #ffffffdd;
+  color: #6b8e23;
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+input {
+  position: relative;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+}
+#rooms {
+  margin-left: 48px;
+  margin-bottom: 20px;
+}
+#beds {
+  margin-left: 14px;
+}
+#adults {
+  margin-left: 12px;
+}
+#child {
+  margin-left: 29px;
+}
+#date {
+  font-family: Lato;
+  margin-left: 10px;
+  width: 100px;
+}
+#book {
+  width: 120px;
+  height: 45px;
+  margin-left: 48px;
+}
+button {
+  background-color: #6b8e23;
+  color: white;
+  font-size: 0.7em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  border: 0;
+}
+button:hover {
+  background-color: white;
+  color: #6b8e23;
+  border: 0;
 }

@@ -17,9 +17,24 @@
   </div>
 
   <div class="main" id="about_main">
-    <div id="room">
-      <input class="date" type="date">
+    <div id="picker_class">
+       <ul>
+        <li class="picker">Rooms</li>
+        <li class="picker">Beds</li>
+        <li class="picker">Adults</li>
+        <li class="picker">Children</li>
+        <li class="picker">Date</li>
+      </ul>
+      <div>
+        <input min="1" type="number" id="rooms">
+        <input type="number" id="beds">
+        <input type="number" id="adults">
+        <input type="number" id="child">
+        <input type="date" id="date">
+        <button id="book">Book</button>
+      </div>
     </div>
+
   </div>
 
   <div class="footer">
