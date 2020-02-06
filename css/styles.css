@@ -1,16 +1,20 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-size: 25px;
-  background: url("../img/resort.jpg");
-  background-size: 100%;
+  color: white;
+  font-family: Lato;
 }
 .header {
   width: 100%;
   height: 150px;
-  /* background-color: yellowgreen; */
+  background-color: #6b8e23;
+  overflow: hidden;
 }
 .page_title {
-  color: white;
   font-family: Lato;
   font-weight: 300;
   letter-spacing: 30px;
@@ -29,7 +33,6 @@ body {
   padding: 0;
   text-align: center;
   top: 45px;
-  color: white;
 }
 .navigate {
   display: inline;
@@ -43,5 +46,58 @@ body {
 }
 
 .navigate:hover {
-  background-color: grey;
+  background-color: darkgray;
+}
+a {
+  color: inherit;
+  text-decoration: unset;
+}
+#welcome {
+  font-family: Lato;
+  text-transform: uppercase;
+  font-weight: 900;
+  position: relative;
+  font-size: 3.5em;
+  margin: auto;
+  top: 280px;
+  text-shadow: 2px 2px 5px #000000;
+  text-align: center;
+}
+.container {
+  background: #6b8e23;
+  height: 500px;
+}
+.main {
+  width: 100%;
+  height: inherit;
+  background-image: url("../img/resort.jpg");
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.footer {
+  background-color: #6b8e23;
+  margin: 0;
+  padding: 10px;
+  font-size: 0.5em;
+  font-family: Lato;
+  letter-spacing: 2px;
+  text-align: center;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#about_main {
+  background: url("../img/room.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
