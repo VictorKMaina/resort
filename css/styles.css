@@ -64,8 +64,9 @@ a {
   text-align: center;
 }
 .container {
-  background: #6b8e23;
+  /* background: #6b8e23; */
   height: 500px;
+  border-top: 5px solid #6b8e23;
 }
 .main {
   width: 100%;
@@ -163,4 +164,41 @@ button:hover {
   background-color: white;
   color: #6b8e23;
   border: 0;
+}
+#act_main {
+  background: url("../img/swimming.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#move {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  position: inherit;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-top: 280px;
+  text-shadow: 2px 2px 5px #000000aa;
+}
+
+.left_col{
+  display: table;
+  float: left;
+  background-color: #6b8e23;
+  min-width: 300px;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/weights.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.right_col {
+  display: table;
+  float: right;
+  background-color: #6b8e23;
+  min-width: 300px;
+  width: 50%;
+  height: 100%;
+  font
 }
